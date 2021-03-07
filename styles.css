@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: Wotfard, sans-serif;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  line-height: 2rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 5%;
+  border: dotted 6px #e60a67;
+  border-bottom: none;
+}
+
+.arrow {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+}
+
+.arrow-hidden {
+  color: #fff;
+}
+
+.bio {
+  max-width: 250px;
+  padding: 0 50px;
+}
+
+.blank {
+  color: #fff;
+}
+
+.center {
+  justify-content: center;
+}
+.container {
+  display: flex;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #9eb4c2;
+  padding: 12px;
+}
+
+.email {
+  text-align: center;
+  padding: 0;
+}
+
+.footer-contents {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-contents {
+  max-width: 900px;
+  margin: auto;
+}
+
+.middle-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraph {
+  padding: 20px 0;
+}
+
+.profile-pic {
+  border-radius: 15%;
+  height: 150px;
+  width: 150px;
+}
+
+.projects {
+  max-width: 450px;
+  padding: 0 50px;
+}
+
+.read-more {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.section-title {
+  color: #e60a67;
+}
+
+.socials {
+  flex-direction: row;
+}
+
+.social-icon {
+  font-size: 50px;
+  margin: 10px;
+  color: #272d31;
+}
+
+.tag {
+  background-color: #CCE9F8;
+  border-radius: 30px;
+  font-size: 12px;
+  display: inline-block;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.tag:hover {
+  padding: 2px 12px;
+}
+
+.tag-container {
+  height: 50px;
+}
+.tag-text {
+  padding: 0;
+}
+
+
+.top {
+  background: #c5e1f3;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+.top-contents {
+  max-width: 800px;
+  padding: 100px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #4433ff;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.paragraph:hover {
+  color: #4433ff;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e60a67;
+  }
+}
+#footer {
+  height: 200px;
+  background: #c5e1f3;
+}
+
+#middle {
+  margin: 100px 0;
+}
+
+#top {
+  color: #4433ff;
+}
+@font-face {
+  font-family: Wotfard;
+  src: url("fonts/wotfard-regular-webfont.ttf");
+}
